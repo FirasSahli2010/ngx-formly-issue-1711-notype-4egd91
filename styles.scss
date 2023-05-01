@@ -1,0 +1,23 @@
+/* Add application styles & imports to this file! */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  margin: 0;
+  padding: 0 1em;
+}
+
+h1 {
+  margin: 0.75em 0 0.1em !important;
+}
+
+pre {
+  background: rgba(0,0,0,0.07);
+  border-radius: 4px;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.secondary-text {
+  color: rgba(0,0,0,0.67);
+  font-size: 0.9em;
+}
