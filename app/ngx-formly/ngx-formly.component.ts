@@ -20,6 +20,14 @@ export class NgxFormlyComponent {
   fields: FormlyFieldConfig[] = [
     {
       key: 'id',
+      templateOptions: {
+        label: '',
+        required: true,
+        addonRight: {text: '' }
+      },
+      type: '',
+      validation: {show: false},
+      defaultValue: 123
     },
     {
       key: 'name',
